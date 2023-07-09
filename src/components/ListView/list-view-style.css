@@ -1,0 +1,37 @@
+.list-view {
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 0 15px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.list-view__image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.list-view__name {
+  text-transform: uppercase;
+}
+
+.list-view__color {
+  color: gray;
+}
+
+.list-view__price {
+  color: red;
+}
+
+.list-view__btn {
+  color: red;
+  padding: 10px;
+  text-transform: uppercase;
+  border-color: red;
+  border-radius: 15px;
+  cursor: pointer;
+}

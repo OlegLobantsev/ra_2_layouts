@@ -1,0 +1,41 @@
+.card-view {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  gap: 10px;
+
+  text-align: center;
+  padding: 15px;
+}
+
+.card-view__name,
+.card-view__color {
+  display: block;
+  flex: 1 1 100%;
+}
+
+.card-view__color {
+  color: gray;
+  margin-bottom: 170px;
+}
+
+.card-view__price {
+  color: red;
+}
+
+.card-view__btn {
+  color: red;
+  padding: 10px;
+  text-transform: uppercase;
+  border-color: red;
+  border-radius: 15px;
+  cursor: pointer;
+}

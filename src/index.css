@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 25px 15px;
+  margin: 0 auto;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.material-icons {
+  color: rgb(234, 227, 227);
+  text-align: right;
+  display: block;
+  margin-left: auto;
+  user-select: none;
+  font-size: 40px;
+}
